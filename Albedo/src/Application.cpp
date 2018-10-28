@@ -5,7 +5,7 @@ namespace Nigredo
 	__declspec(dllimport) void Print(const char* text);
 }
 
-void main()
+int main()
 {
 	Nigredo::Print("Welcome to Albedo, Nigredo, Rubedo!");
 	std::cin.get();
