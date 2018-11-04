@@ -10,6 +10,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Nigredo.h" />
+    <ClInclude Include="src\Nigredo\Application.h" />
+    <ClInclude Include="src\Nigredo\Core.h" />
+    <ClInclude Include="src\Nigredo\EntryPoint.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Nigredo\Application.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{5F15D7F5-438F-4C25-BDB4-B40E5EA55AAE}</ProjectGuid>
@@ -56,7 +65,14 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions); NIGREDO_PLATFORM_WINDOWS; NIGREDO_BUILD_DLL;</PreprocessorDefinitions>
     </ClCompile>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)bin\$(Configuration) $(Platform)\$(SolutionName)\$(SolutionName).dll" "$(SolutionDir)bin\$(Configuration) $(Platform)\Albedo\$(SolutionName).dll"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copy the DLL to Sandbox</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -66,18 +82,19 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions); NIGREDO_PLATFORM_WINDOWS; NIGREDO_BUILD_DLL;</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)bin\$(Configuration) $(Platform)\$(SolutionName)\$(SolutionName).dll" "$(SolutionDir)bin\$(Configuration) $(Platform)\Albedo\$(SolutionName).dll"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copy the DLL to Sandbox</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="src\Test.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\Test.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
