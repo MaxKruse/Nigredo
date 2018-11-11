@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Nigredo\Log.h" />
     <ClInclude Include="src\Nigredo.h" />
     <ClInclude Include="src\Nigredo\Application.h" />
     <ClInclude Include="src\Nigredo\Core.h" />
     <ClInclude Include="src\Nigredo\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Nigredo\Log.cpp" />
     <ClCompile Include="src\Nigredo\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -30,14 +32,14 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -65,7 +67,10 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions); NIGREDO_PLATFORM_WINDOWS; NIGREDO_BUILD_DLL;</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions); NIGREDO_PLATFORM_WINDOWS; NIGREDO_BUILD_DLL;_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Nigredo\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <PostBuildEvent>
       <Command>copy /Y "$(SolutionDir)bin\$(Configuration) $(Platform)\$(SolutionName)\$(SolutionName).dll" "$(SolutionDir)bin\$(Configuration) $(Platform)\Albedo\$(SolutionName).dll"</Command>
@@ -82,7 +87,10 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions); NIGREDO_PLATFORM_WINDOWS; NIGREDO_BUILD_DLL;</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions); NIGREDO_PLATFORM_WINDOWS; NIGREDO_BUILD_DLL;_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Nigredo\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

@@ -4,8 +4,16 @@
 class Albedo : public Nigredo::Application
 {
 public:
-	Albedo() {}
-	~Albedo() {}
+	Albedo()
+	{
+		// TODO: Logging
+	}
+	
+	~Albedo() 
+	{
+		// TODO: Cleanup
+	}
+
 };
 
 

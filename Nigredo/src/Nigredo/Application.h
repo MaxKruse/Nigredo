@@ -1,5 +1,7 @@
 #pragma once
 #include "Core.h"
+#include <chrono>
+#include <thread>
 #include <iostream>
 
 namespace Nigredo {

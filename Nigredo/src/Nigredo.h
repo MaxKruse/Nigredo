@@ -5,5 +5,8 @@
 // for use by Albedo application
 #include "Nigredo/Application.h"
 
+// Logging
+#include "Nigredo/Log.h"
+
 // Entry Point
 #include "Nigredo/EntryPoint.h"

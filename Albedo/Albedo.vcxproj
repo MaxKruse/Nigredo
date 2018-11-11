@@ -21,14 +21,14 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -61,7 +61,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions); NIGREDO_PLATFORM_WINDOWS;</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)Nigredo/src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Nigredo/src;$(SolutionDir)Nigredo\vendor\spdlog\include;</AdditionalIncludeDirectories>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>Nigredo.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -76,7 +78,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions); NIGREDO_PLATFORM_WINDOWS;</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)Nigredo/src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Nigredo/src;$(SolutionDir)Nigredo\vendor\spdlog\include;</AdditionalIncludeDirectories>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

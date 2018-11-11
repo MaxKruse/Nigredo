@@ -1,0 +1,3 @@
+[submodule "Nigredo/vendor/spdlog"]
+	path = Nigredo/vendor/spdlog
+	url = https://github.com/gabime/spdlog
