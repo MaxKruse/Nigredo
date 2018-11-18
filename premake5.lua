@@ -1,5 +1,6 @@
 workspace "Nigredo"
 	architecture "x64"
+	startproject "Albedo"
 
 	configurations
 	{
@@ -55,7 +56,7 @@ project "Nigredo"
 
 	filter "configurations:Dist"
 		defines "NIGREDO_DIST"
-		optimize "On"
+		optimize "Full"
 		
 
 project "Albedo"
