@@ -31,5 +31,12 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
+## Build
+Simply run ```buildFiles.bat``` to generate projectfiles for Visual Studio 2017.
+
+You might want to edit the file to set a different build target, as well as make sure you check the "Show all Files" Box in Visual Studio to see the correct project-structure.
+
+
 ## Credits
-[The Cherno](https://github.com/TheCherno) for being an awesome Youtuber that teaches people about programming in a professional and yet easy-to-understand way.
+- [The Cherno](https://github.com/TheCherno) for being an awesome Youtuber that teaches people about programming in a professional and yet easy-to-understand way.
+- [Premake 5](https://github.com/premake/premake-core) for the project generation.
