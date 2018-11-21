@@ -8,25 +8,25 @@ int main(int argc, char** argv)
 {
 #ifdef NIGREDO_DEBUG
 
-	puts("Welcome to Albedo (Sandbox), Nigredo (Core), Rubedo (Unused)!\n");
+	puts("Welcome to Albedo (Sandbox), Nigredo (Core), Rubedo (Unused)!");
 
 	Nigredo::Log::Init();
 
-	NIGREDO_CORE_WARN("RUNNING IN DEBUG MODE");
-
-	NIGREDO_CORE_INFO("Initialized");
+	NIGREDO_WARN("!!RUNNING IN DEBUG MODE!!");
 	NIGREDO_INFO("Initialized");
+
+	Nigredo::Log::GetCoreLogger()->flush();
 
 #elif NIGREDO_RELEASE
 
-	puts("Welcome to Albedo (Sandbox), Nigredo (Core), Rubedo (Unused)!\n");
+	puts("Welcome to Albedo (Sandbox), Nigredo (Core), Rubedo (Unused)!");
 
 	Nigredo::Log::Init();
 
-	NIGREDO_CORE_INFO("RUNNING IN RELEASE MODE");
-
-	NIGREDO_CORE_INFO("Initialized");
+	NIGREDO_WARN("!!RUNNING IN DEBUG MODE!!");
 	NIGREDO_INFO("Initialized");
+
+	Nigredo::Log::GetCoreLogger()->flush();
 
 #elif NIGREDO_DIST
 
@@ -34,6 +34,8 @@ int main(int argc, char** argv)
 
 	auto app = Nigredo::CreateApplication();
 	app->Run();
+	NIGREDO_CRITICAL("WE SHUT DOWN");
+	Nigredo::Log::GetCoreLogger()->flush();
 	delete app;
 }
 
