@@ -16,7 +16,7 @@ namespace Nigredo {
 		while (true)
 		{
 			std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-			NIGREDO_TRACE("Next second...");
+			NIGREDO_ERROR("Next second...");
 		}
 	}
 
