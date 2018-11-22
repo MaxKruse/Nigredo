@@ -9,8 +9,16 @@ namespace Nigredo {
 	void Log::Init()
 	{
 		spdlog::set_pattern("%^[%T] %n: %v%$");
-		
-		_wmkdir(L".\\logs\\");
+				
+		if (CreateDirectory(L"./logs/", NULL) ||
+			ERROR_ALREADY_EXISTS == GetLastError())
+		{
+			
+		}
+		else
+		{
+			throw "Couldnt create folder \"logs/\"";
+		}
 
 		time_t rawtime;
 		struct tm * timeinfo;
@@ -19,7 +27,7 @@ namespace Nigredo {
 		time(&rawtime);
 		timeinfo = localtime(&rawtime);
 
-		strftime(buffer, sizeof(buffer), ".\\logs\\log - %Y_%m_%d - %H-%M-%S.txt", timeinfo);
+		strftime(buffer, sizeof(buffer), ".\\logs\\log_%Y_%m_%d - %H-%M-%S.txt", timeinfo);
 
 		const spdlog::filename_t &str(buffer);
 

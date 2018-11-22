@@ -258,4 +258,6 @@ __pycache__/
 
 *.filters
 
-*logs*
+Albedo/log\.txt
+
+Albedo/logs/
