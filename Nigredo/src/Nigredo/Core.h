@@ -11,3 +11,5 @@
 #error Windows Only Support
 
 #endif
+
+#define BIT(x) (1 << x)

@@ -8,16 +8,16 @@ namespace Nigredo {
 
 	void Log::Init()
 	{
-		spdlog::set_pattern("%^[%T] %n: %v%$");
+		spdlog::set_pattern("%^[%H:%M:%S:%e] %n: %v%$");
 				
-		if (CreateDirectory(L"./logs/", NULL) ||
+		if (CreateDirectory(L"../logs/", NULL) ||
 			ERROR_ALREADY_EXISTS == GetLastError())
 		{
 			
 		}
 		else
 		{
-			throw "Couldnt create folder \"logs/\"";
+			throw "Couldnt create folder \"../logs/\"";
 		}
 
 		time_t rawtime;
@@ -27,7 +27,7 @@ namespace Nigredo {
 		time(&rawtime);
 		timeinfo = localtime(&rawtime);
 
-		strftime(buffer, sizeof(buffer), ".\\logs\\log_%Y_%m_%d - %H-%M-%S.txt", timeinfo);
+		strftime(buffer, sizeof(buffer), "..\\logs\\log_%Y_%m_%d - %H-%M-%S.txt", timeinfo);
 
 		const spdlog::filename_t &str(buffer);
 
@@ -35,6 +35,6 @@ namespace Nigredo {
 		s_CoreLogger->set_level(spdlog::level::trace);
 
 		s_ClientLogger = spdlog::stdout_color_mt("CLIENT");
-		s_ClientLogger->set_level(spdlog::level::info);
+		s_ClientLogger->set_level(spdlog::level::trace);
 	}
 }

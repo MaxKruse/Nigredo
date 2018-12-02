@@ -23,7 +23,7 @@ int main(int argc, char** argv)
 
 	Nigredo::Log::Init();
 
-	NIGREDO_WARN("!!RUNNING IN DEBUG MODE!!");
+	NIGREDO_WARN("!!RUNNING IN RELEASE MODE!!");
 	NIGREDO_INFO("Initialized");
 
 	Nigredo::Log::GetCoreLogger()->flush();

@@ -10,3 +10,9 @@
 
 // Entry Point
 #include "Nigredo/EntryPoint.h"
+
+// Events
+#include "Nigredo/Events/Event.h"
+#include "Nigredo/Events/ApplicationEvent.h"
+#include "Nigredo/Events/KeyEvent.h"
+#include "Nigredo/Events/MouseEvent.h"

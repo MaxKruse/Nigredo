@@ -6,12 +6,12 @@ class Albedo : public Nigredo::Application
 public:
 	Albedo()
 	{
-		// TODO: Logging
 	}
 	
 	~Albedo() 
 	{
-		// TODO: Cleanup
+		Nigredo::WindowCloseEvent e = Nigredo::WindowCloseEvent();
+		NIGREDO_TRACE(e);
 	}
 
 };

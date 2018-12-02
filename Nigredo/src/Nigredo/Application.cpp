@@ -1,11 +1,15 @@
 ﻿#include "Application.h"
 
+// Events
+#include "Nigredo/Events/ApplicationEvent.h"
+#include "Nigredo/Events/KeyEvent.h"
+#include "Nigredo/Events/MouseEvent.h"
+
 namespace Nigredo {
 
 	Application::Application()
 	{
 	}
-
 
 	Application::~Application()
 	{
@@ -13,11 +17,9 @@ namespace Nigredo {
 
 	void Application::Run()
 	{
-		while (true)
-		{
-			std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-			NIGREDO_TRACE("Next second...");
-		}
+		WindowResizeEvent e(1280, 720);
+		NIGREDO_TRACE(e);
+		while (true);
 	}
 
 }
