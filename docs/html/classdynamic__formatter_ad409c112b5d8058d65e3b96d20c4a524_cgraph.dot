@@ -1,0 +1,25 @@
+digraph "dynamic_formatter::format"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dynamic_formatter::\lformat",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="internal::specs_checker\l::on_align",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1specs__checker.html#ab4c0aaf640c5bf31b031a6fd502213fb"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="internal::specs_checker\l::on_plus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1specs__checker.html#a12d7b0e358cb4fa37ea1e743fc91df62"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="internal::specs_checker\l::on_space",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1specs__checker.html#ad3ad96ca1b6ccf5495de4aecbb1a4d7a"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="internal::specs_checker\l::on_minus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1specs__checker.html#ab52e2fc452636fd081d9392956dfe6e9"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="internal::specs_checker\l::on_hash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1specs__checker.html#a90ca884ae61ca7badce5ca112cd168bb"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="internal::specs_checker\l::end_precision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1specs__checker.html#a0c16ee4bc2e70bb2c3e736e195dcd870"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="internal::is_integral",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#a09faa33ade86f8ff4b7eae46cfe148ee"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="visit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$vendor_2spdlog_2include_2spdlog_2fmt_2bundled_2_core_8h.html#af5f4405970c52a2ede8b225b58e1f613"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="internal::context_base::out",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1context__base.html#ab77c1d5e2cf72ef323e1599be8567fee"];
+}

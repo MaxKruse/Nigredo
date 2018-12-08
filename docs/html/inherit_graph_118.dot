@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="formatter\< T, Char,\l typename std::enable\l_if\< internal::format\l_type\< typename buffer\l_context\< Char \>::type,\l T \>::value \>::type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structformatter_3_01_t_00_01_char_00_01typename_01std_1_1enable__if_3_01internal_1_1format__typeef2b7d59b5441fbead72290e06693dea.html"];
+}

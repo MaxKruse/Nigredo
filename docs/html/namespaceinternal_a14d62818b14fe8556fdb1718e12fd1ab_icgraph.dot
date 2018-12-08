@@ -1,0 +1,15 @@
+digraph "internal::check_format_string"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="internal::check_format\l_string",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$vendor_2spdlog_2include_2spdlog_2fmt_2bundled_2_core_8h.html#ada11fbb2f38856789d2a9ea1abc7eff2"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="formatter\< arg_join\l\< It, Char \>, Char \>\l::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structformatter_3_01arg__join_3_01_it_00_01_char_01_4_00_01_char_01_4.html#ae0c4a217ef67f0a573d1c4fd9bfe0472"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="internal::check_format\l_string",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#a068dac2f4b0bcc746e41fd48db042e2a"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="format_to",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$format_8h.html#a6fd3392079f1b2c0ef982abffad92361"];
+}

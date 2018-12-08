@@ -1,0 +1,13 @@
+digraph "spdlog::shutdown"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="spdlog::shutdown",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="spdlog::details::registry\l::instance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1registry.html#a58a1bbb352f751f6b729bc57bfadd6be"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="spdlog::details::registry\l::shutdown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1registry.html#ac93f888f316b0488414771ad6533b6a9"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="spdlog::details::registry\l::drop_all",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1registry.html#a127ccc3786f6ddef57f16d354ba4db91"];
+}

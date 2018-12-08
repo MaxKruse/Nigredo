@@ -1,0 +1,17 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="true_type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="internal::is_like_std\l_string\< fmt::basic_string\l_view\< Char \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structinternal_1_1is__like__std__string_3_01fmt_1_1basic__string__view_3_01_char_01_4_01_4.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="internal::is_named\l_arg\< named_arg\< T,\l Char \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structinternal_1_1is__named__arg_3_01named__arg_3_01_t_00_01_char_01_4_01_4.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="internal::is_range\l_\< T, typename std::\lconditional\< false, conditional\l_helper\< decltype(internal\l::declval\< T \>().begin()), decltype\l(internal::declval\< T \>().end())\>\l, void \>::type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structinternal_1_1is__range___3_01_t_00_01typename_01std_1_1conditional_3_01false_00_01condition3cb3b849b8281fb701deab896849f46a.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="is_contiguous\< internal\l::basic_buffer\< Char \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structis__contiguous_3_01internal_1_1basic__buffer_3_01_char_01_4_01_4.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="is_contiguous\< std\l::basic_string\< Char \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structis__contiguous_3_01std_1_1basic__string_3_01_char_01_4_01_4.html"];
+}

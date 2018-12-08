@@ -1,0 +1,27 @@
+digraph "internal::count_digits"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="internal::count_digits",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="FMT_BEGIN_NAMESPACE\l::format_error_code",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_t___b_e_g_i_n___n_a_m_e_s_p_a_c_e.html#ad71fe6b856abb34c3351b17daaaae709"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="format_system_error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$format_8h.html#ac99badb700e346dd1c86629e4e3b900d"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="spdlog::spdlog_ex::\lspdlog_ex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1spdlog__ex.html#a0758933dd1e6c4c8e76bb8e7134f7d9b"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="report_system_error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$format_8h.html#aa87a526a913eeaf54e8d7b16020c8174"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="internal::grisu2_gen\l_digits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#a8ac72411270bd3159b8ba82cda435a52"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="internal::grisu2_format\l_positive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#a9d00cd50e0601444d3f6a15cbf08ca74"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="internal::grisu2_format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#a4abf462ca51ab4e37683b0ae29806958"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="format_decimal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$format_8h.html#a51774c1aa3f0cdb583702d3e6e6cbca8"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="internal::format_decimal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#aa42b858381be3c6a62b7da2bc8b72428"];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="basic_writer::int_writer\l::num_writer::operator()",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structbasic__writer_1_1int__writer_1_1num__writer.html#a08efa288669066e815898db40002e2cc"];
+}

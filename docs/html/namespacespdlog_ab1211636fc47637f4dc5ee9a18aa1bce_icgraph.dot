@@ -1,0 +1,13 @@
+digraph "spdlog::drop_all"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="spdlog::drop_all",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$jni_2example_8cpp.html#a81ce304348a420752ee080480d2b3095"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TEST_CASE",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$test__async_8cpp.html#a4f57c1407e48edca6759a982c8502c01"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="prepare_logdir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html#a2b5b3745d36c269b878e592c2fa801cb"];
+}

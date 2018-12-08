@@ -1,0 +1,39 @@
+digraph "spdlog::details::fmt_helper::pad2"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="spdlog::details::fmt\l_helper::pad2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="spdlog::details::c\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1c__formatter.html#a1b09d9e9e1d84b29fc2fb8d37fa07d57"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="spdlog::details::C\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1_c__formatter.html#a241d6298edc054937cf40c0d7ed90ae2"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="spdlog::details::D\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1_d__formatter.html#a065cf427de180dfee0b6abb642a78cb0"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="spdlog::details::m\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1m__formatter.html#a507ce5bc00de736d28d93e5d7307589b"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="spdlog::details::d\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1d__formatter.html#ad1c7decfd7bfa7ecd6fd105e2d74bed4"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="spdlog::details::H\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1_h__formatter.html#a46e166ed26e90bfe5bbc6b5f83040bef"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="spdlog::details::I\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1_i__formatter.html#ab9d6511acc53b2296ecce30f715779c7"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="spdlog::details::M\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1_m__formatter.html#ab6c0f013ea2c54cceb4561033d59ca0c"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="spdlog::details::S\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1_s__formatter.html#aec1945b20074132e9ebe7d94357081fa"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="spdlog::details::r\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1r__formatter.html#a5d4a5d4f5f1285c4a4af104a775e9859"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="spdlog::details::R\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1_r__formatter.html#a1fe66a7fbf57ef47faa59e82132e9051"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="spdlog::details::T\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1_t__formatter.html#a338d37f02f3a9a4376acc3d4b655eda3"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="spdlog::details::z\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1z__formatter.html#ada7a5e9a3c30039cbfb684b7743b8945"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="spdlog::details::full\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1full__formatter.html#a11da1d2ec8378841d228df071915da35"];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="test_pad2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$test__fmt__helper_8cpp.html#a9274f626706cba3f5b932d0b4dc3c766"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="TEST_CASE",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$test__fmt__helper_8cpp.html#a4957d22c87b180c8d2903cc4cfaf5806"];
+}

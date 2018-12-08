@@ -1,0 +1,21 @@
+digraph "TEST_CASE"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TEST_CASE",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="prepare_logdir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$latency_8cpp.html#a2b5b3745d36c269b878e592c2fa801cb"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="spdlog::details::os\l::localtime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog_1_1details_1_1os.html#aef63b92ee93ec66603c0357d0ac75bed"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="internal::localtime_s",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#a990db8ce6eb1702f344b5993587f37af"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="format_to",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$vendor_2spdlog_2include_2spdlog_2fmt_2bundled_2_core_8h.html#abcac15fdbec6e0fe134caa0d49a40a88"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="vformat_to",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$vendor_2spdlog_2include_2spdlog_2fmt_2bundled_2_core_8h.html#ae2022f6959a9a0bccb6a0770bdb76f43"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="to_string",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$format_8h.html#afe05b087244838ced775fa3f28134c34"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="count_lines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$async__bench_8cpp.html#a6729b5c59b0e398b79fd37ec206969c1"];
+}

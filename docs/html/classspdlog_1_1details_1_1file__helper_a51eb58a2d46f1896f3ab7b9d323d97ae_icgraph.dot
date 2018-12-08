@@ -1,0 +1,13 @@
+digraph "spdlog::details::file_helper::write"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="spdlog::details::file\l_helper::write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="spdlog::sinks::basic\l_file_sink::sink_it_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1sinks_1_1basic__file__sink.html#a8d9239f225478ade4e879dc643f577ba"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="spdlog::sinks::daily\l_file_sink::sink_it_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1sinks_1_1daily__file__sink.html#ac82447cddb7a2ddb45ab81f97b74286d"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="spdlog::sinks::rotating\l_file_sink::sink_it_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1sinks_1_1rotating__file__sink.html#a3cf93e445ad92380c7d352f971cd76a4"];
+}

@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['u8string_5fview',['u8string_view',['../classu8string__view.html',1,'u8string_view'],['../classu8string__view.html#a57d3b2e6c9febc4289c936faf413633f',1,'u8string_view::u8string_view(const char *s)'],['../classu8string__view.html#a29121b197fae2d1b2e373cdf66f99c48',1,'u8string_view::u8string_view(const char *s, size_t count) FMT_NOEXCEPT']]],
+  ['uint_5ftype',['uint_type',['../namespaceinternal.html#a8661864098ac0acff9a6dd7e66f59038aa2a554d9072770a945ebf5363650f7a1',1,'internal']]],
+  ['uint_5fvalue',['uint_value',['../classinternal_1_1value.html#a95277a7bf9ae00baa4b670d169a2d462',1,'internal::value']]],
+  ['ulong_5flong_5ftype',['ulong_long_type',['../namespaceinternal.html#a8661864098ac0acff9a6dd7e66f59038af31bdba5c2a6e81482fa2a1e8b8195f6',1,'internal']]],
+  ['ulong_5flong_5fvalue',['ulong_long_value',['../classinternal_1_1value.html#ab4e3bdcbd82033eff1ed026e93d8fbc2',1,'internal::value']]],
+  ['underline',['underline',['../classspdlog_1_1sinks_1_1ansicolor__sink.html#a22d86f2cb36da074052308603f058764',1,'spdlog::sinks::ansicolor_sink']]],
+  ['unknown',['Unknown',['../struct_catch_1_1_result_was.html#a624e1ee3661fcf6094ceef1f654601efa65721dda02fe5efb522e7449e496608a',1,'Catch::ResultWas']]],
+  ['unlock',['unlock',['../structspdlog_1_1details_1_1null__mutex.html#acbc27862ec43b4b0e9c8f5197174f95f',1,'spdlog::details::null_mutex']]],
+  ['unprintablestring',['unprintableString',['../namespace_catch_1_1_detail.html#af85a188eaa0b45b3b8ab2781ba3dde44',1,'Catch::Detail']]],
+  ['upper',['upper',['../structfloat__spec__handler.html#a4567e3c57d971883cf9adadd37d56db8',1,'float_spec_handler']]],
+  ['use_5fgrisu',['use_grisu',['../namespaceinternal.html#af5feefb057897e872eca05f711f9ac60',1,'internal']]],
+  ['use_5fuppercase',['use_uppercase',['../structfmt_1_1formatter_3_01spdlog_1_1details_1_1bytes__range_3_01_t_01_4_01_4.html#a0974264e6edcc83c7c191f34d2ce4781',1,'fmt::formatter&lt; spdlog::details::bytes_range&lt; T &gt; &gt;']]],
+  ['useactiveexception',['useActiveException',['../class_catch_1_1_result_builder.html#a5bbd2f14a678f3e8d0f791ac6d233d65',1,'Catch::ResultBuilder']]],
+  ['user_5fdefined_5fexample',['user_defined_example',['../example_8cpp.html#a33e5031a84de450b97c6baa66a88d234',1,'user_defined_example():&#160;example.cpp'],['../jni_2example_8cpp.html#a33e5031a84de450b97c6baa66a88d234',1,'user_defined_example():&#160;example.cpp']]],
+  ['ustring',['ustring',['../classinternal_1_1value.html#ae036559e2acba411ec237335f9c227d1',1,'internal::value']]],
+  ['utc',['utc',['../namespacespdlog.html#ad598fbd8338772e66ae09e8723a07ceda52d33cb937bbdab234ab1729a0f8225b',1,'spdlog']]],
+  ['utc_5fminutes_5foffset',['utc_minutes_offset',['../namespacespdlog_1_1details_1_1os.html#a6dce662c3a4ea0b6e95468272ec37047',1,'spdlog::details::os']]],
+  ['utils',['utils',['../namespaceutils.html',1,'']]],
+  ['utils_2ecpp',['utils.cpp',['../utils_8cpp.html',1,'']]],
+  ['utils_2eh',['utils.h',['../example_2utils_8h.html',1,'']]],
+  ['utils_2eh',['utils.h',['../bench_2utils_8h.html',1,'']]],
+  ['utils_2eh',['utils.h',['../tests_2utils_8h.html',1,'']]]
+];

@@ -1,0 +1,26 @@
+digraph "spdlog::details::os::now"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="spdlog::details::os::now",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="bench_mt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$async__bench_8cpp.html#a87be032cecc2ffc9b5fe137148fa2b1a"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$async__bench_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="bench",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$bench_8cpp.html#a7319bfe51ec9511b35f5c12e521065f6"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$bench_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="bench_default_api",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$bench_8cpp.html#a343297571d41f5f784e384b71ced42f2"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="bench_c_string",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$bench_8cpp.html#ad44a71c1b1a49867d117d367fd476e94"];
+  Node7 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="spdlog::logger::default\l_err_handler_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1logger.html#a3432e21bdc19d74024b57cc3f26a8471"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="spdlog::sinks::daily\l_file_sink::daily_file_sink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1sinks_1_1daily__file__sink.html#a442164b0813283bc631ad39708fb3669"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="TEST_CASE",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$test__mpmc__q_8cpp.html#a2123dc7879a20a16886ca9a01d36f4f7"];
+}

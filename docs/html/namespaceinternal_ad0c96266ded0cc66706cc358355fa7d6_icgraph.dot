@@ -1,0 +1,15 @@
+digraph "internal::to_esc"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="internal::to_esc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="vprint_rgb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$colors_8h.html#a48e10d6f2a899eb8a3de884fe4ee3f56"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="print_rgb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$colors_8h.html#aed43de18b082793631dd19b5f4cc9e23"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$colors_8h.html#a832eea73ba20c84fdaf3ea607fefd46a"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="spdlog::logger::default\l_err_handler_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1logger.html#a3432e21bdc19d74024b57cc3f26a8471"];
+}

@@ -1,0 +1,30 @@
+digraph "spdlog::spdlog_ex::spdlog_ex"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="spdlog::spdlog_ex::\lspdlog_ex",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="format_system_error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$format_8h.html#ac99badb700e346dd1c86629e4e3b900d"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="internal::basic_buffer\l::resize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1basic__buffer.html#adbd2b147e114f0cc4573f734d4326669"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="FMT_BEGIN_NAMESPACE\l::safe_strerror",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_t___b_e_g_i_n___n_a_m_e_s_p_a_c_e.html#a3770dc340d58166b701180e092935e12"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="strerror_s",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$format-inl_8h.html#a3bbfb7ce6b764966d8cf5d018589375e"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="strerror_r",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$format-inl_8h.html#a8307cb500850a7c5033cf64702e15990"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="internal::basic_buffer\l::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1basic__buffer.html#abc95713c3873c5820f10105fe7c7af93"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="basic_writer::write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classbasic__writer.html#a1d44923710a19cdeb09ca5e834641ea8"];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="FMT_BEGIN_NAMESPACE\l::format_error_code",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_t___b_e_g_i_n___n_a_m_e_s_p_a_c_e.html#ad71fe6b856abb34c3351b17daaaae709"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="internal::is_negative",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#ac5822d6a6cf07ba173eae0ab2c53bf8c"];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="internal::count_digits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#acd86a6b6cf0e4e395ebc162686dec65d"];
+  Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="to_string",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$format_8h.html#afe05b087244838ced775fa3f28134c34"];
+}

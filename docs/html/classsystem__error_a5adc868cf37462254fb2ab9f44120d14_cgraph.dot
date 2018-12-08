@@ -1,0 +1,9 @@
+digraph "system_error::system_error"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="system_error::system\l_error",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="make_format_args",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$vendor_2spdlog_2include_2spdlog_2fmt_2bundled_2_core_8h.html#a152ae8803b5ab9ca235a32807800581f"];
+}

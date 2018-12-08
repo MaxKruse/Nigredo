@@ -1,0 +1,17 @@
+digraph "internal::gmtime_r"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="internal::gmtime_r",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="spdlog::details::os\l::gmtime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog_1_1details_1_1os.html#ac993ad051e07cd5bda5328be2a54b0a8"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="spdlog::details::os\l::gmtime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog_1_1details_1_1os.html#a504776f0a18b0090f66778f7ad8add0b"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="spdlog::details::os\l::utc_minutes_offset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog_1_1details_1_1os.html#a6dce662c3a4ea0b6e95468272ec37047"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="spdlog::details::z\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1z__formatter.html#ada7a5e9a3c30039cbfb684b7743b8945"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="gmtime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$time_8h.html#aaf8e0f0ff843757380c35a9ec5321168"];
+}

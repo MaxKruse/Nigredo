@@ -1,0 +1,18 @@
+digraph "vfprintf"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="vfprintf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="printf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$printf_8h.html#acf8661934d19c3adc4cadd95a1f2387a"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="internal::write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#a1d6eb1d297ebb5fc0f724732f23b22eb"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="internal::basic_buffer\l::data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1basic__buffer.html#ab4a96d7d4394f469568d290fde5a75a7"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="internal::basic_buffer\l::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1basic__buffer.html#abc95713c3873c5820f10105fe7c7af93"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="internal::to_unsigned",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#acc608c40c33952a5382db8aaaddfc854"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

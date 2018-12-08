@@ -1,0 +1,34 @@
+digraph "spdlog::logger::default_err_handler_"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="spdlog::logger::default\l_err_handler_",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="spdlog::details::os::now",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog_1_1details_1_1os.html#ab86a7d9f1495a0edae71ce647bae6a66"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="spdlog::details::os\l::localtime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog_1_1details_1_1os.html#aef63b92ee93ec66603c0357d0ac75bed"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="internal::localtime_s",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#a990db8ce6eb1702f344b5993587f37af"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="internal::strftime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#a1358037a310a2e6f3d05538df58ff412"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="internal::strftime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#aaa347e326b504b866752fd087f46d2b0"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$colors_8h.html#a832eea73ba20c84fdaf3ea607fefd46a"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="vprint_rgb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$colors_8h.html#a48e10d6f2a899eb8a3de884fe4ee3f56"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="internal::to_esc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#ad0c96266ded0cc66706cc358355fa7d6"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="vprint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$vendor_2spdlog_2include_2spdlog_2fmt_2bundled_2_core_8h.html#a7122c6820a7e6319d6fc2f30d1292faa"];
+  Node10 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="vformat_to",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$vendor_2spdlog_2include_2spdlog_2fmt_2bundled_2_core_8h.html#ae2022f6959a9a0bccb6a0770bdb76f43"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="internal::basic_buffer\l::data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1basic__buffer.html#ab4a96d7d4394f469568d290fde5a75a7"];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="internal::basic_buffer\l::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1basic__buffer.html#abc95713c3873c5820f10105fe7c7af93"];
+  Node7 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="make_format_args",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$vendor_2spdlog_2include_2spdlog_2fmt_2bundled_2_core_8h.html#a152ae8803b5ab9ca235a32807800581f"];
+}

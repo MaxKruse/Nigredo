@@ -1,0 +1,20 @@
+digraph "internal::begin"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="internal::begin",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="binary_example",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$example_8cpp.html#a2e05f77fb3f2674bac54750230c694dd"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$example_8cpp.html#a81ce304348a420752ee080480d2b3095"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="spdlog::details::os\l::is_color_terminal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog_1_1details_1_1os.html#a41c3f67d2cbabfcb20e89d0524e5097f"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="spdlog::sinks::ansicolor\l_sink::ansicolor_sink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1sinks_1_1ansicolor__sink.html#aed8c41cc6f792b27bc37d2f46536268d"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="spdlog::to_hex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog.html#acd3f4323bb627945b4cecbbbc62770ef"];
+  Node6 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="TEST_CASE",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$test__misc_8cpp.html#a88c72fdbbde0603818426589728b16cd"];
+}

@@ -1,0 +1,19 @@
+digraph "printf"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="printf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="vprintf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$printf_8h.html#ac5f7673eaf040eeaa35d3b51fab7310d"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="vfprintf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$printf_8h.html#a8030f1463e63049090d172377770c0e6"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="printf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$printf_8h.html#acf8661934d19c3adc4cadd95a1f2387a"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="internal::basic_buffer\l::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1basic__buffer.html#abc95713c3873c5820f10105fe7c7af93"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="internal::basic_buffer\l::data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1basic__buffer.html#ab4a96d7d4394f469568d290fde5a75a7"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="make_format_args",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$vendor_2spdlog_2include_2spdlog_2fmt_2bundled_2_core_8h.html#a152ae8803b5ab9ca235a32807800581f"];
+}

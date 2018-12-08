@@ -1,0 +1,15 @@
+digraph "C:/Dev/Nigredo/Nigredo/vendor/spdlog/include/spdlog/sinks" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b695df804d786102fe2429e4b2badf33 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="spdlog" fontname="Helvetica", fontsize="10", URL="dir_b695df804d786102fe2429e4b2badf33.html"]
+  dir_367044eb925f27c1704e063233e86779 [shape=box, label="sinks", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_367044eb925f27c1704e063233e86779.html"];
+  }
+  dir_d6a070970dd1d40a20fa725cc9ef8e27 [shape=box label="details" URL="dir_d6a070970dd1d40a20fa725cc9ef8e27.html"];
+  dir_f175da8d62c4727ccd7fed23bbc7478a [shape=box label="fmt" fillcolor="white" style="filled" color="red" URL="dir_f175da8d62c4727ccd7fed23bbc7478a.html"];
+  dir_d6a070970dd1d40a20fa725cc9ef8e27->dir_367044eb925f27c1704e063233e86779 [headlabel="1", labeldistance=1.5 headhref="dir_000018_000019.html"];
+  dir_d6a070970dd1d40a20fa725cc9ef8e27->dir_f175da8d62c4727ccd7fed23bbc7478a [headlabel="2", labeldistance=1.5 headhref="dir_000018_000011.html"];
+  dir_367044eb925f27c1704e063233e86779->dir_d6a070970dd1d40a20fa725cc9ef8e27 [headlabel="23", labeldistance=1.5 headhref="dir_000019_000018.html"];
+  dir_367044eb925f27c1704e063233e86779->dir_f175da8d62c4727ccd7fed23bbc7478a [headlabel="2", labeldistance=1.5 headhref="dir_000019_000011.html"];
+}

@@ -1,0 +1,15 @@
+digraph "C:/Dev/Nigredo/Nigredo/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f606475c4e863e349810eeb869d3e9a1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Nigredo" fontname="Helvetica", fontsize="10", URL="dir_f606475c4e863e349810eeb869d3e9a1.html"]
+  subgraph clusterdir_998a9a76105a9cbc537617c97da31299 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_998a9a76105a9cbc537617c97da31299.html"];
+    dir_998a9a76105a9cbc537617c97da31299 [shape=plaintext label="src"];
+    dir_8d048fa545e09c0095e8df99baafa036 [shape=box label="Nigredo" color="red" fillcolor="white" style="filled" URL="dir_8d048fa545e09c0095e8df99baafa036.html"];
+  }
+  }
+  dir_a2293ca973fdf85797fce1bc1299a366 [shape=box label="vendor" fillcolor="white" style="filled" color="red" URL="dir_a2293ca973fdf85797fce1bc1299a366.html"];
+  dir_8d048fa545e09c0095e8df99baafa036->dir_a2293ca973fdf85797fce1bc1299a366 [headlabel="4", labeldistance=1.5 headhref="dir_000006_000007.html"];
+}

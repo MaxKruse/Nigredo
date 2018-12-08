@@ -1,0 +1,17 @@
+digraph "spdlog::details::os::localtime"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="spdlog::details::os\l::localtime",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="spdlog::logger::default\l_err_handler_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1logger.html#a3432e21bdc19d74024b57cc3f26a8471"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="spdlog::details::os\l::localtime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog_1_1details_1_1os.html#a3c7704d0c74aed204f258ac1fc7d4576"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="spdlog::details::os\l::utc_minutes_offset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog_1_1details_1_1os.html#a6dce662c3a4ea0b6e95468272ec37047"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="spdlog::details::z\l_formatter::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1z__formatter.html#ada7a5e9a3c30039cbfb684b7743b8945"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="TEST_CASE",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$test__file__logging_8cpp.html#a91617979e214fc2c5b038d03cf6020f3"];
+}

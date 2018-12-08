@@ -1,0 +1,13 @@
+digraph "TEST_CASE"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TEST_CASE",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="prepare_logdir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$latency_8cpp.html#a2b5b3745d36c269b878e592c2fa801cb"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="count_lines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$async__bench_8cpp.html#a6729b5c59b0e398b79fd37ec206969c1"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="file_contents",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html#a1a0b65e2f68f54594ead488235ec260a"];
+}

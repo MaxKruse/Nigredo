@@ -1,0 +1,11 @@
+digraph "C:/Dev/Nigredo/Nigredo/vendor/spdlog/bench" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9ad7c6618d2783ce4aa5c894bb3457b1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="spdlog" fontname="Helvetica", fontsize="10", URL="dir_9ad7c6618d2783ce4aa5c894bb3457b1.html"]
+  dir_860130ae700922bd9b34358660b76f47 [shape=box, label="bench", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_860130ae700922bd9b34358660b76f47.html"];
+  }
+  dir_7fcfb1c3adf7720378f7a2e986e94e30 [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_7fcfb1c3adf7720378f7a2e986e94e30.html"];
+  dir_860130ae700922bd9b34358660b76f47->dir_7fcfb1c3adf7720378f7a2e986e94e30 [headlabel="18", labeldistance=1.5 headhref="dir_000014_000009.html"];
+}

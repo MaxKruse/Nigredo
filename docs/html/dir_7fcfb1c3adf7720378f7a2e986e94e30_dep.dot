@@ -1,0 +1,13 @@
+digraph "C:/Dev/Nigredo/Nigredo/vendor/spdlog/include" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9ad7c6618d2783ce4aa5c894bb3457b1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="spdlog" fontname="Helvetica", fontsize="10", URL="dir_9ad7c6618d2783ce4aa5c894bb3457b1.html"]
+  subgraph clusterdir_7fcfb1c3adf7720378f7a2e986e94e30 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_7fcfb1c3adf7720378f7a2e986e94e30.html"];
+    dir_7fcfb1c3adf7720378f7a2e986e94e30 [shape=plaintext label="include"];
+    dir_b695df804d786102fe2429e4b2badf33 [shape=box label="spdlog" color="red" fillcolor="white" style="filled" URL="dir_b695df804d786102fe2429e4b2badf33.html"];
+  }
+  }
+}

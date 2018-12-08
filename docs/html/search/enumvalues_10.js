@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['saddle_5fbrown',['saddle_brown',['../colors_8h.html#a80d1dc5f416b97f92939a4166d41203ca0b1ae0e5580eaa0e6968ec6c8143ecac',1,'colors.h']]],
+  ['salmon',['salmon',['../colors_8h.html#a80d1dc5f416b97f92939a4166d41203ca180fd182f9a0742f483619781ccc36c4',1,'colors.h']]],
+  ['sandy_5fbrown',['sandy_brown',['../colors_8h.html#a80d1dc5f416b97f92939a4166d41203ca9a19a83d0097df35f7ba7af753f0537d',1,'colors.h']]],
+  ['sea_5fgreen',['sea_green',['../colors_8h.html#a80d1dc5f416b97f92939a4166d41203ca2e1e305a440fcfc9109858a7b2e20ca7',1,'colors.h']]],
+  ['sea_5fshell',['sea_shell',['../colors_8h.html#a80d1dc5f416b97f92939a4166d41203caefe66dd5675ff42810bbc04512d44c4b',1,'colors.h']]],
+  ['shouldfail',['ShouldFail',['../struct_catch_1_1_test_case_info.html#a39b232f74b4a7a6f2183b96759027eacaf9002285bccfc343935958f3953f4c01',1,'Catch::TestCaseInfo']]],
+  ['sienna',['sienna',['../colors_8h.html#a80d1dc5f416b97f92939a4166d41203ca91c001e5547439063fefe550d83533b6',1,'colors.h']]],
+  ['sign_5fflag',['SIGN_FLAG',['../format_8h.html#a0411cd49bb5b71852cecd93bcbf0ca2dad8eaa6f0130b0d3410c0d9840a9678b5',1,'format.h']]],
+  ['silver',['silver',['../colors_8h.html#a80d1dc5f416b97f92939a4166d41203ca97f014516561ef487ec368d6158eb3f4',1,'colors.h']]],
+  ['sky_5fblue',['sky_blue',['../colors_8h.html#a80d1dc5f416b97f92939a4166d41203cad06424e64af2d470476a234e12a48a40',1,'colors.h']]],
+  ['slate_5fblue',['slate_blue',['../colors_8h.html#a80d1dc5f416b97f92939a4166d41203ca8f72f2a45cee9a5f2e0afe5d2bb9d4b1',1,'colors.h']]],
+  ['slate_5fgray',['slate_gray',['../colors_8h.html#a80d1dc5f416b97f92939a4166d41203caf664bac577c1c520c4a98e63457d2f22',1,'colors.h']]],
+  ['snow',['snow',['../colors_8h.html#a80d1dc5f416b97f92939a4166d41203ca2b93fbdf27d43547bec8794054c28e00',1,'colors.h']]],
+  ['spring_5fgreen',['spring_green',['../colors_8h.html#a80d1dc5f416b97f92939a4166d41203ca67485a137fce2085007d93aa115cd093',1,'colors.h']]],
+  ['steel_5fblue',['steel_blue',['../colors_8h.html#a80d1dc5f416b97f92939a4166d41203ca00885bc107cec87940dfe4beadbab382',1,'colors.h']]],
+  ['string_5ftype',['string_type',['../namespaceinternal.html#a8661864098ac0acff9a6dd7e66f59038a8a104d760e6ea540da0d654ca8728d55',1,'internal']]],
+  ['suppressfail',['SuppressFail',['../struct_catch_1_1_result_disposition.html#a3396cad6e2259af326b3aae93e23e9d8a1a88eb6004bddee4ccae4b421991bf54',1,'Catch::ResultDisposition']]]
+];

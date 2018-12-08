@@ -1,0 +1,16 @@
+digraph "C:/Dev/Nigredo/Nigredo/vendor/spdlog/example" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9ad7c6618d2783ce4aa5c894bb3457b1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="spdlog" fontname="Helvetica", fontsize="10", URL="dir_9ad7c6618d2783ce4aa5c894bb3457b1.html"]
+  subgraph clusterdir_0acca95a40c253d56c9fd0c2622efd42 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_0acca95a40c253d56c9fd0c2622efd42.html"];
+    dir_0acca95a40c253d56c9fd0c2622efd42 [shape=plaintext label="example"];
+    dir_b3e30885afe182925f263522be72913e [shape=box label="jni" color="black" fillcolor="white" style="filled" URL="dir_b3e30885afe182925f263522be72913e.html"];
+  }
+  }
+  dir_7fcfb1c3adf7720378f7a2e986e94e30 [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_7fcfb1c3adf7720378f7a2e986e94e30.html"];
+  dir_b3e30885afe182925f263522be72913e->dir_7fcfb1c3adf7720378f7a2e986e94e30 [headlabel="2", labeldistance=1.5 headhref="dir_000017_000009.html"];
+  dir_0acca95a40c253d56c9fd0c2622efd42->dir_7fcfb1c3adf7720378f7a2e986e94e30 [headlabel="14", labeldistance=1.5 headhref="dir_000015_000009.html"];
+}

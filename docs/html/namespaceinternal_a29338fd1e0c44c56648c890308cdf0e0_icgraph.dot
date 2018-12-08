@@ -1,0 +1,9 @@
+digraph "internal::_isnan"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="internal::_isnan",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="std::numeric_limits\l\< fmt::internal::dummy\l_int \>::isnotanumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classstd_1_1numeric__limits_3_01fmt_1_1internal_1_1dummy__int_01_4.html#a66bfe9a9db1167477806c1973002e941"];
+}

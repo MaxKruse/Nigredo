@@ -1,0 +1,10 @@
+digraph "C:/Dev" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d99d5d4662bf24521eef49da6a8cd34d {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_d99d5d4662bf24521eef49da6a8cd34d.html"];
+    dir_d99d5d4662bf24521eef49da6a8cd34d [shape=plaintext label="Dev"];
+    dir_0c2f4203b3134f33efd6b4e7be129900 [shape=box label="Nigredo" color="red" fillcolor="white" style="filled" URL="dir_0c2f4203b3134f33efd6b4e7be129900.html"];
+  }
+}

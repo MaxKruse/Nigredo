@@ -1,0 +1,27 @@
+digraph "spdlog::details::registry::get"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="spdlog::details::registry::get",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="spdlog::get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog.html#a658d68d4ebdb11793b1e78582f108674"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="trace_example",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$example_8cpp.html#a533bc5d6714f6c6f08a2a9396b5f37cf"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$example_8cpp.html#a81ce304348a420752ee080480d2b3095"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$jni_2example_8cpp.html#a81ce304348a420752ee080480d2b3095"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="user_defined_example",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$jni_2example_8cpp.html#a33e5031a84de450b97c6baa66a88d234"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="err_handler_example",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$jni_2example_8cpp.html#afdb3d98f0ed84d35fc4f67ee6cc6abf8"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="internal::for_each",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#af4d7b053e84d49f79dccf99423a41a4e"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="internal::for_each",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#ad176bd254de2376b5b51d2aa8fbffed6"];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="formatter\< TupleT,\l Char, typename std\l::enable_if\< fmt::is\l_tuple_like\< TupleT \>\l::value \>::type \>::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structformatter_3_01_tuple_t_00_01_char_00_01typename_01std_1_1enable__if_3_01fmt_1_1is__tuple__a8a88f793f5f612c28a21643fc88182d.html#a7d5dc29d45fc8f500059ce69020b2ea6"];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="TEST_CASE",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$test__registry_8cpp.html#aae2924f3f6004d61d7f71b1b0b59f3bd"];
+}

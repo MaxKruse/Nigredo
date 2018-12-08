@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="internal::context_base\l\< OutputIt, basic_format\l_context\< OutputIt, Char\l \>, Char \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classinternal_1_1context__base.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="basic_format_context\l\< OutputIt, Char \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classbasic__format__context.html"];
+}

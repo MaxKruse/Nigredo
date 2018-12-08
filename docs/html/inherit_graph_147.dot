@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="internal::format_string\l_traits_base\< char \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structinternal_1_1format__string__traits__base.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="internal::format_string\l_traits\< S, typename std\l::enable_if\< std::is_base\l_of\< compile_string, S \>::\lvalue \>::type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structinternal_1_1format__string__traits_3_01_s_00_01typename_01std_1_1enable__if_3_01std_1_1is_f8d1e294c4cbafa4d9a1e2d305967863.html"];
+}

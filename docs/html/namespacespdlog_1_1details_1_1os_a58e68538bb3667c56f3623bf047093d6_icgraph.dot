@@ -1,0 +1,21 @@
+digraph "spdlog::details::os::prevent_child_fd"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="spdlog::details::os\l::prevent_child_fd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="spdlog::details::os\l::fopen_s",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog_1_1details_1_1os.html#af2d11a0b892e2f0cb3c6beba4c659a47"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="spdlog::details::file\l_helper::open",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1file__helper.html#a8612066fd098080cc60e3aefed6a6085"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="spdlog::details::file\l_helper::reopen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1file__helper.html#a21c688da7f241c53871b462c3a5c2c94"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="spdlog::sinks::basic\l_file_sink::basic_file_sink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1sinks_1_1basic__file__sink.html#a799e95cc46fd69b03f4ef7497aa21436"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="spdlog::sinks::daily\l_file_sink::daily_file_sink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1sinks_1_1daily__file__sink.html#a442164b0813283bc631ad39708fb3669"];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="spdlog::sinks::daily\l_file_sink::sink_it_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1sinks_1_1daily__file__sink.html#ac82447cddb7a2ddb45ab81f97b74286d"];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="spdlog::sinks::rotating\l_file_sink::rotating_file_sink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1sinks_1_1rotating__file__sink.html#a0e754181168b32e8b1b60b82c35179e8"];
+}

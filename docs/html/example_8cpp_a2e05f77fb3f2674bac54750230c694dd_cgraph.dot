@@ -1,0 +1,30 @@
+digraph "binary_example"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="binary_example",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="spdlog::info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog.html#aa28eab0ad170c43b6624bf698a12a1d2"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="spdlog::default_logger_raw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog.html#a2c623c9fadba3efc09b48dac8a3990be"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="spdlog::details::registry\l::instance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1registry.html#a58a1bbb352f751f6b729bc57bfadd6be"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="spdlog::details::registry\l::get_default_raw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1registry.html#a1fd3bc96c2a7be1af1841f5980cd5f4c"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="spdlog::logger::info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1logger.html#ab9862f48bf0a87b8f3532d36d404235a"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="spdlog::log",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog.html#a097f7ede3465a0c9cb7e4d8bfa99bd54"];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="spdlog::logger::log",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1logger.html#a5149c7b8c1ac8aeedbeba779b0e0cfb7"];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="spdlog::to_hex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacespdlog.html#acd3f4323bb627945b4cecbbbc62770ef"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="internal::begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#a265f36d9dee68d3f44381347ef2fd5cb"];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="internal::end",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#a94820de1710dc8038fa6f188adfe299b"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

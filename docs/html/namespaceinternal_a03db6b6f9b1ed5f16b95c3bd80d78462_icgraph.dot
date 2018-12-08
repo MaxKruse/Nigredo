@@ -1,0 +1,15 @@
+digraph "internal::format_decimal"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="internal::format_decimal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="basic_writer::int_writer\l::dec_writer::operator()",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structbasic__writer_1_1int__writer_1_1dec__writer.html#add0e078abdaf9933ca3d2c0fd316e4d5"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="format_decimal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$format_8h.html#a51774c1aa3f0cdb583702d3e6e6cbca8"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="internal::format_decimal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceinternal.html#aa42b858381be3c6a62b7da2bc8b72428"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="basic_writer::int_writer\l::num_writer::operator()",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structbasic__writer_1_1int__writer_1_1num__writer.html#a08efa288669066e815898db40002e2cc"];
+}
