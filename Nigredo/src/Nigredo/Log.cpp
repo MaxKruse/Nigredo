@@ -20,14 +20,12 @@ namespace Nigredo {
 			throw "Couldnt create folder \"../logs/\"";
 		}
 
-		time_t rawtime;
-		struct tm * timeinfo;
 		char buffer[512];
+		struct tm newtime;
+		time_t now = time(0);
+		localtime_s(&newtime, &now);
 
-		time(&rawtime);
-		timeinfo = localtime(&rawtime);
-
-		strftime(buffer, sizeof(buffer), "..\\logs\\log_%Y_%m_%d - %H-%M-%S.txt", timeinfo);
+		strftime(buffer, sizeof(buffer), "..\\logs\\log_%Y_%m_%d - %H-%M-%S.txt", &newtime);
 
 		const spdlog::filename_t &str(buffer);
 
