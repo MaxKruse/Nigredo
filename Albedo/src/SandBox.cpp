@@ -10,8 +10,6 @@ public:
 	
 	~Albedo() 
 	{
-		Nigredo::WindowCloseEvent e = Nigredo::WindowCloseEvent();
-		NIGREDO_TRACE(e);
 	}
 
 };
