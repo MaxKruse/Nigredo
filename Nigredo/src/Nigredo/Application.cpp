@@ -1,4 +1,5 @@
-﻿#include "Application.h"
+﻿#include "pch.h"
+#include "Application.h"
 
 // Events
 #include "Nigredo/Events/ApplicationEvent.h"

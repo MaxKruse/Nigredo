@@ -1,9 +1,7 @@
 #pragma once
+#include "pch.h"
 #include "Core.h"
 #include "Log.h"
-#include <chrono>
-#include <thread>
-#include <iostream>
 
 namespace Nigredo {
 

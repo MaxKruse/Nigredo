@@ -1,9 +1,6 @@
 #pragma once
-
+#include "pch.h"
 #include "Nigredo/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace Nigredo {
 	

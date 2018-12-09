@@ -19,6 +19,9 @@ project "Nigredo"
 	targetdir ("bin/" .. outputDir .. "/%{prj.name}")
 	objdir ("bin/Intemediates/" .. outputDir .. "/%{prj.name}")
 
+	pchheader "pch.h"
+	pchsource "Nigredo/src/pch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",
