@@ -11,6 +11,13 @@ workspace "Nigredo"
 
 outputDir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+
+-- Include directories relative to root folder (solution directory)
+IncludeDir = {}
+IncludeDir["GLFW"] = "Nigredo/vendor/GLFW/include"
+
+include "Nigredo/vendor/GLFW"
+
 project "Nigredo"
 	location "Nigredo"
 	kind "SharedLib"
@@ -31,7 +38,14 @@ project "Nigredo"
 	includedirs
 	{
 		"%{prj.name}/src",
-		"%{prj.name}/vendor/spdlog/include"
+		"%{prj.name}/vendor/spdlog/include",
+		"%{IncludeDir.GLFW}"
+	}
+
+	links
+	{
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"
@@ -52,10 +66,12 @@ project "Nigredo"
 
 	filter "configurations:Debug"
 		defines "NIGREDO_DEBUG"
+		defines "NIGREDO_ENABLE_ASSERTS"
 		symbols "On"
 
 	filter "configurations:Release"
 		defines "NIGREDO_RELEASE"
+		defines "NIGREDO_ENABLE_ASSERTS"
 		optimize "On"
 
 	filter "configurations:Dist"
