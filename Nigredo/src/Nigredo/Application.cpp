@@ -1,15 +1,13 @@
 ﻿#include "pch.h"
 #include "Application.h"
 
-// Events
-#include "Nigredo/Events/ApplicationEvent.h"
-#include "Nigredo/Events/KeyEvent.h"
-#include "Nigredo/Events/MouseEvent.h"
+#include "GLFW/glfw3.h"
 
 namespace Nigredo {
 
 	Application::Application()
 	{
+		m_Window = std::unique_ptr<Window>(Window::Create());
 	}
 
 	Application::~Application()
@@ -18,9 +16,12 @@ namespace Nigredo {
 
 	void Application::Run()
 	{
-		WindowResizeEvent e(1280, 720);
-		NIGREDO_TRACE(e);
-		while (true);
+		while (running)
+		{
+			glClearColor(1, 0.7, 0, 0.5);
+			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+			m_Window->OnUpdate();
+		}
 	}
 
 }

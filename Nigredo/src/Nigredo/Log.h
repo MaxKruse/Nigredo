@@ -36,7 +36,7 @@ namespace Nigredo {
 								::Nigredo::Log::GetCoreLogger()->flush()
 
 
-#define NIGREDO_ERROR(...)		:Nigredo::Log::GetClientLogger()->error(__VA_ARGS__);\
+#define NIGREDO_ERROR(...)		::Nigredo::Log::GetClientLogger()->error(__VA_ARGS__);\
 								::Nigredo::Log::GetCoreLogger()->error(__VA_ARGS__);\
 								::Nigredo::Log::GetCoreLogger()->flush()
 

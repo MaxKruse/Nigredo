@@ -12,4 +12,10 @@
 
 #endif
 
+#ifdef NIGREDO_ENABLE_ASSERTS
+	#define NIGREDO_ASSERT(x, ...) { if(!(x)) { NIGREDO_ERROR("Assertion failed: {}", __VA_ARGS__ ); __debugbreak(); } }
+#else
+	#define NIGREDO_ASSERT(x, ...)
+#endif
+
 #define BIT(x) (1 << x)
