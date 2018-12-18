@@ -264,3 +264,5 @@ Albedo/log\.txt
 Albedo/logs/
 
 bin/Debug-windows-x86_64/Albedo/logs/
+
+Nigredo/vendor/GLFW
