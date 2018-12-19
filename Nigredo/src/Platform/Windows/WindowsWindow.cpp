@@ -3,7 +3,6 @@
 
 namespace Nigredo {
 
-
 	static bool s_GLFWinitialized = false;
 
 	Window* Window::Create(const WindowProperties& props)
@@ -27,7 +26,7 @@ namespace Nigredo {
 		m_Data.Width = props.Width;
 		m_Data.Height = props.Height;
 		
-		NIGREDO_INFO("Creating window {0} ({1}x{2})", m_Data.Title, m_Data.Width, m_Data.Height);
+		NIGREDO_INFO_CORE("Creating window \"{0}\" ({1}x{2})", m_Data.Title, m_Data.Width, m_Data.Height);
 
 		if (!s_GLFWinitialized)
 		{

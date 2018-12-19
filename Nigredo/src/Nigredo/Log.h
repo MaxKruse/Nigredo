@@ -24,24 +24,15 @@ namespace Nigredo {
 }
 
 // Client Logging Macros
-#define NIGREDO_TRACE(...)      ::Nigredo::Log::GetClientLogger()->trace(__VA_ARGS__);\
-								::Nigredo::Log::GetCoreLogger()->trace(__VA_ARGS__)\
+#define NIGREDO_TRACE(...)			::Nigredo::Log::GetClientLogger()->trace(__VA_ARGS__)
+#define NIGREDO_INFO(...)			::Nigredo::Log::GetClientLogger()->info(__VA_ARGS__)
+#define NIGREDO_WARN(...)			::Nigredo::Log::GetClientLogger()->warn(__VA_ARGS__)
+#define NIGREDO_ERROR(...)			::Nigredo::Log::GetClientLogger()->error(__VA_ARGS__)
+#define NIGREDO_CRITICAL(...)		::Nigredo::Log::GetClientLogger()->critical(__VA_ARGS__)
 
-#define NIGREDO_INFO(...)       ::Nigredo::Log::GetClientLogger()->info(__VA_ARGS__);\
-								::Nigredo::Log::GetCoreLogger()->info(__VA_ARGS__)
-
-
-#define NIGREDO_WARN(...)		::Nigredo::Log::GetClientLogger()->warn(__VA_ARGS__);\
-								::Nigredo::Log::GetCoreLogger()->warn(__VA_ARGS__);\
-								::Nigredo::Log::GetCoreLogger()->flush()
-
-
-#define NIGREDO_ERROR(...)		::Nigredo::Log::GetClientLogger()->error(__VA_ARGS__);\
-								::Nigredo::Log::GetCoreLogger()->error(__VA_ARGS__);\
-								::Nigredo::Log::GetCoreLogger()->flush()
-
-
-#define NIGREDO_CRITICAL(...)	::Nigredo::Log::GetClientLogger()->critical(__VA_ARGS__);\
-								::Nigredo::Log::GetCoreLogger()->critical(__VA_ARGS__);\
-								::Nigredo::Log::GetCoreLogger()->flush()
-
+// Core Logging Macros
+#define NIGREDO_TRACE_CORE(...)		::Nigredo::Log::GetCoreLogger()->trace(__VA_ARGS__)
+#define NIGREDO_INFO_CORE(...)		::Nigredo::Log::GetCoreLogger()->info(__VA_ARGS__)
+#define NIGREDO_WARN_CORE(...)		::Nigredo::Log::GetCoreLogger()->warn(__VA_ARGS__)
+#define NIGREDO_ERROR_CORE(...)		::Nigredo::Log::GetCoreLogger()->error(__VA_ARGS__)
+#define NIGREDO_CRITICAL_CORE(...)	::Nigredo::Log::GetCoreLogger()->critical(__VA_ARGS__)
