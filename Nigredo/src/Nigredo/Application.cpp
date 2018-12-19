@@ -3,6 +3,8 @@
 
 #include "GLFW/glfw3.h"
 
+#define Color(r,g,b) glClearColor(r/255.0, g/255.0, b/255.0, 1)
+
 namespace Nigredo {
 
 	Application::Application()
@@ -12,13 +14,14 @@ namespace Nigredo {
 
 	Application::~Application()
 	{
+		
 	}
 
 	void Application::Run()
 	{
 		while (running)
 		{
-			glClearColor(1, 0.7, 0, 0.5);
+			Color(128, 60, 10);
 			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 			m_Window->OnUpdate();
 		}
