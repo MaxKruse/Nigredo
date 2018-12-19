@@ -1,9 +1,0 @@
-digraph "spdlog::details::thread_pool::overrun_counter"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node1 [label="spdlog::details::thread\l_pool::overrun_counter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
-  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="spdlog::details::mpmc\l_blocking_queue::overrun\l_counter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspdlog_1_1details_1_1mpmc__blocking__queue.html#a15e3d12dff953034d5aad5590b8282cd"];
-}

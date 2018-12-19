@@ -1,9 +1,0 @@
-digraph "C:/Dev/Nigredo/Nigredo/vendor/spdlog/include/spdlog/fmt/bundled" {
-  compound=true
-  node [ fontsize="10", fontname="Helvetica"];
-  edge [ labelfontsize="10", labelfontname="Helvetica"];
-  subgraph clusterdir_f175da8d62c4727ccd7fed23bbc7478a {
-    graph [ bgcolor="#ddddee", pencolor="black", label="fmt" fontname="Helvetica", fontsize="10", URL="dir_f175da8d62c4727ccd7fed23bbc7478a.html"]
-  dir_ff75d8c9978fdfb4056732fed7891fc8 [shape=box, label="bundled", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ff75d8c9978fdfb4056732fed7891fc8.html"];
-  }
-}

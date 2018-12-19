@@ -1,9 +1,0 @@
-digraph "spdlog::details::registry::initialize_logger"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node1 [label="spdlog::details::registry\l::initialize_logger",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
-  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="spdlog::synchronous\l_factory::create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structspdlog_1_1synchronous__factory.html#adaa87c520c04dab24a0ad427a94a2f44"];
-}

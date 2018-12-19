@@ -1,9 +1,0 @@
-var searchData=
-[
-  ['test_5fclock',['test_clock',['../test__mpmc__q_8cpp.html#a4144c54da9c77f92228bc797cba17fd7',1,'test_mpmc_q.cpp']]],
-  ['test_5fsink_5fmt',['test_sink_mt',['../namespacespdlog_1_1sinks.html#a2c864b6ea2e3bcf8dd0712d289f3e76f',1,'spdlog::sinks']]],
-  ['test_5fsink_5fst',['test_sink_st',['../namespacespdlog_1_1sinks.html#a0fe9ab3ba350fd8b6d1b8abaffd8724d',1,'spdlog::sinks']]],
-  ['testfunction',['TestFunction',['../namespace_catch.html#a768da872b9033e4c71c6f316393d35db',1,'Catch']]],
-  ['type',['type',['../structinternal_1_1result__of_3_01_f_07_args_8_8_8_08_4.html#a7357d60ac9880b6a8fd70bbed3cc18f5',1,'internal::result_of&lt; F(Args...)&gt;::type()'],['../structbasic__format__context_1_1formatter__type.html#a0d7d26df97530fd48ac910bab66b77d0',1,'basic_format_context::formatter_type::type()'],['../structbuffer__context.html#a40b7c25f5abe4d5621a585c9ff06a020',1,'buffer_context::type()'],['../structinternal_1_1function_1_1result.html#a0cfececc2f74ee4d620c6b0cdeb1b1f2',1,'internal::function::result::type()'],['../structinternal_1_1checked.html#a90b7667882b9d2fd22a0520d1a081606',1,'internal::checked::type()'],['../structformat__context__t.html#ae03422332865c5e9ecabb6f71684a6bc',1,'format_context_t::type()'],['../structformat__args__t.html#aba50451f8c53f6f2ca5f428bcf734910',1,'format_args_t::type()'],['../structinternal_1_1make__unsigned__or__bool_3_01bool_01_4.html#a628a504d6e878ffe0f2bc69efd1a42cd',1,'internal::make_unsigned_or_bool&lt; bool &gt;::type()'],['../structbasic__printf__context_1_1formatter__type.html#a2c01e0b65235ce00308de48f6b602f7c',1,'basic_printf_context::formatter_type::type()'],['../structprintf__context.html#a13a821fdac88cba1eddd21e882166cd0',1,'printf_context::type()'],['../class_catch_1_1_safe_bool.html#a14cd49eced5b255a1f59512d3b9395ae',1,'Catch::SafeBool::type()']]],
-  ['type_5fspec',['type_spec',['../format_8h.html#abc6c934c1c803a241edb9feeb72dad33',1,'format.h']]]
-];
