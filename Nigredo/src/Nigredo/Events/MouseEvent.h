@@ -13,7 +13,7 @@ namespace Nigredo {
 		inline float GetX() const { return m_MouseX; }
 		inline float GetY() const { return m_MouseY; }
 
-		std::string ToString()
+		std::string ToString() const override
 		{
 			std::stringstream ss;
 			ss << "MouseMovedEvent: [X = " << m_MouseX << ", Y = " << m_MouseY << "]";
@@ -36,7 +36,7 @@ namespace Nigredo {
 		inline float GetX() const { return m_OffsetX; }
 		inline float GetY() const { return m_OffsetY; }
 
-		std::string ToString()
+		std::string ToString() const override
 		{
 			std::stringstream ss;
 			ss << "MouseScrolledEvent: [X = " << m_OffsetX << ", Y = " << m_OffsetY << "]";
@@ -72,7 +72,7 @@ namespace Nigredo {
 			: MouseButtonEvent(button) {}
 
 
-		std::string ToString()
+		std::string ToString() const override
 		{
 			std::stringstream ss;
 			ss << "MouseButtonPressedEvent: " << m_Button;
@@ -90,7 +90,7 @@ namespace Nigredo {
 			: MouseButtonEvent(button) {}
 
 
-		std::string ToString()
+		std::string ToString() const override
 		{
 			std::stringstream ss;
 			ss << "MouseButtonReleasedEvent: " << m_Button;

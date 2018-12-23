@@ -19,6 +19,7 @@ namespace Nigredo {
 
 	class NIGREDO_API KeyPressedEvent : public KeyEvent
 	{
+	public:
 		KeyPressedEvent(int keycode, int repeatcount)
 			: KeyEvent(keycode), m_RepeatCount(repeatcount) {}
 
@@ -38,6 +39,7 @@ namespace Nigredo {
 
 	class NIGREDO_API KeyReleasedEvent : public KeyEvent
 	{
+	public:
 		KeyReleasedEvent(int keycode)
 			: KeyEvent(keycode) {}
 
